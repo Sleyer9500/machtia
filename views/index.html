@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Machtia</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="Img/Logo.ico">
+    <link href="Css/index.css"
+      rel="stylesheet" type="text/css">
+    <script src="Js/navegacion.js"></script>
+</head>
+
+<body>
+    <div id="Home_page">
+        <img src = "Img/Machtia_nombre.png" class="Imagenes">
+        <div class = "botones">
+            <button class="Btn_imagen" onclick="Ocultar_Home_page()">
+                <img img src = "Img/Mochila.png" class="Imagen_btn">
+                <h1>Alumno</h1>
+            </button>
+            <button class="Btn_imagen" onclick="Ocultar_Home_page()">
+                <img img src = "Img/Pizarron.png" class="Imagen_btn">
+                <h1>Maestro</h1>
+            </button>
+        </div>
+    </div>
+    <div id="Login" style="display: none;">
+        <section class="form-login">
+            <h5>Iniciar sesion</h5>
+            <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+            <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña">
+            <input class="buttons" type="submit" name="" value="Ingresar">
+            <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
+          </section>
+    </div>
+    <div id="Ventana_Principal_Maestro" style="display: none;">
+    </div>
+</body>
+</html>
